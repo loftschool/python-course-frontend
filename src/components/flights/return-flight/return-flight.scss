@@ -1,0 +1,152 @@
+.flight {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  &__info {
+    display: flex;
+    gap: 55px;
+    border-right: 2px #b7b7b7;
+    border-right-style: dotted;
+    padding: 40px 60px 40px 30px;
+    width: inherit;
+    justify-content: space-between;
+  }
+
+  &__time {
+    font-weight: 600;
+    font-size: 45px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  &__date {
+    font-size: 13px;
+    color: #373737;
+  }
+
+  &__arrival {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__departure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__purchase {
+    padding: 28px 40px 28px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    background-color: #0185ff;
+    width: 133px;
+    height: 59px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    justify-content: space-between;
+  }
+
+  &__middle {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 12px;
+    position: relative;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.time {
+  display: flex;
+  gap: 5px;
+}
+
+.bottom {
+  font-weight: 400;
+  font-size: 13px;
+
+  &__text {
+    color: #0185ff;
+  }
+
+  &__time {
+    color: #b7b7b7;
+  }
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  &:after {
+    justify-content: space-between;
+  }
+
+  &__icon-left {
+    width: 32px;
+    height: 5px;
+    background-color: #b7b7b7;
+    border-radius: 74px;
+    position: absolute;
+    top: -2px;
+  }
+  &__icon-right {
+    width: 32px;
+    height: 5px;
+    background-color: #b7b7b7;
+    border-radius: 74px;
+    position: absolute;
+    top: -2px;
+    right: 0;
+  }
+}
+
+.top {
+  &__carrier {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+}
+
+.carrier {
+  &__logo {
+    width: 23px;
+  }
+
+  &__name {
+    font-size: 11px;
+    font-weight: 600;
+  }
+}

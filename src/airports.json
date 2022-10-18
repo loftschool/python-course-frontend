@@ -1,0 +1,34 @@
+{
+  "airports": [
+    {
+      "iata_code": "AAQ",
+      "name": "Анапа",
+      "country": "Россия"
+    },
+    {
+      "iata_code": "ABA",
+      "name": "Абакан",
+      "country": "Россия"
+    },
+    {
+      "iata_code": "SVO",
+      "name": "Москва",
+      "country": "Россия"
+    },
+    {
+      "iata_code": "LPK",
+      "name": "Липецк",
+      "country": "Россия"
+    },
+    {
+      "iata_code": "PVG",
+      "name": "Шанхай",
+      "country": "Китай"
+    },
+    {
+      "iata_code": "VCE",
+      "name": "Венеция",
+      "country": "Италия"
+    }
+  ]
+}

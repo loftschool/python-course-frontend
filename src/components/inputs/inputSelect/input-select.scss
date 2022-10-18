@@ -1,0 +1,61 @@
+.input {
+  &__element {
+    width: 188px;
+    height: 70px;
+    padding: 25px 20px 2px 20px;
+    background-color: #f3f3f7;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 9px;
+
+    &:focus {
+      outline-width: 1px;
+      outline-color: #0185ff;
+    }
+  }
+}
+
+.select {
+  position: relative;
+  cursor: pointer;
+  select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../../../assets/images/select-arrow.png);
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+  }
+
+  select::-ms-expand {
+    display: none;
+    background-image: url(../../../assets/images/select-arrow.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+  option {
+    background-color: #fff;
+  }
+
+  &__passengers {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+  }
+
+  &__dropdown {
+    position: absolute;
+    display: flex;
+    width: 188px;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+    top: 60px;
+    z-index: 100;
+  }
+}
+
+.options {
+  color: #f3f3f7;
+}

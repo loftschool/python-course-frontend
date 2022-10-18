@@ -1,0 +1,47 @@
+.validation {
+  background-color: #fcefef;
+  color: black;
+  padding: 30px;
+  margin-bottom: 115px;
+  border: 1px solid #efb5b5;
+  border-radius: 10px;
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  &__errors {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 22px;
+  }
+}
+
+.error {
+  &__item {
+    list-style: disc;
+  }
+}
+
+.nores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__bubble {
+    width: 328px;
+  }
+
+  &__pic {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    top: -37px;
+    left: 35px;
+  }
+}

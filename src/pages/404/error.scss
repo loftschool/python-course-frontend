@@ -1,0 +1,38 @@
+.error-wrapper {
+  background: #ccd3db;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+
+  &__text {
+    width: 80%;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  &__btn {
+    width: 230px;
+    height: 59px;
+    font-size: 16px;
+  }
+
+  &__pic {
+    width: 949px;
+  }
+}

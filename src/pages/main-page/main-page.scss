@@ -1,0 +1,38 @@
+.plane {
+  &__trace {
+    position: absolute;
+    left: 0px;
+    top: 94px;
+    width: 317px;
+    height: 110px;
+  }
+
+  &__icon {
+    position: absolute;
+    left: 306px;
+    top: 138px;
+    width: 63px;
+    height: 25px;
+  }
+}
+
+.circle2 {
+  position: absolute;
+  background: #ffc5cb;
+  width: 16px;
+  height: 16px;
+  opacity: 40%;
+  border-radius: 50%;
+  top: 10%;
+  left: 37%;
+}
+
+.circle3 {
+  position: absolute;
+  background: #ffc5cb;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  top: 12%;
+  left: 68%;
+}

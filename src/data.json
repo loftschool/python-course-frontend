@@ -1,0 +1,70 @@
+{
+  "airports": [
+    {
+      "iata_code": "PVG",
+      "name": "Шанхай",
+      "country": "Китай"
+    },
+    {
+      "iata_code": "VCE",
+      "name": "Венеция",
+      "country": "Италия"
+    }
+  ],
+  "carriers": [
+    {
+      "id": 1,
+      "name": "S7",
+      "logo": "https://picsum.photos/300/300"
+    },
+    {
+      "id": 2,
+      "name": "Turkish Airlines",
+      "logo": "https://picsum.photos/300/300"
+    }
+  ],
+  "tickets": [
+    {
+      "direct": {
+        "airport_from": "PVG",
+        "airport_to": "VCE",
+        "departure_datetime": "2022-06-27 05:14",
+        "arrival_datetime": "2022-06-28 05:38",
+        "duration": "317",
+        "carrier_id": 1
+      },
+      "return": {
+        "airport_from": "VCE",
+        "airport_to": "PVG",
+        "departure_datetime": "2022-06-28 05:38",
+        "arrival_datetime": "2022-06-27 05:14",
+        "duration": "302",
+        "carrier_id": 1
+      },
+      "price": 23000,
+      "buy_link": "https://loftschool.com/",
+      "id": 11
+    },
+    {
+      "direct": {
+        "airport_from": "PVG",
+        "airport_to": "VCE",
+        "departure_datetime": "2022-08-24 07:56",
+        "arrival_datetime": "2022-08-24 10:20",
+        "duration": 144,
+        "carrier_id": 2
+      },
+      "price": 11664,
+      "buy_link": "https://loftschool.com/",
+      "id": 12,
+      "return": {
+        "airport_from": "VCE",
+        "airport_to": "PVG",
+        "departure_datetime": "2022-09-24 15:06",
+        "arrival_datetime": "2022-09-24 17:17",
+        "duration": 131,
+        "carrier_id": 2
+      }
+    }
+  ]
+}
